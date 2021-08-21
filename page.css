@@ -1,0 +1,53 @@
+*{
+    margin: 0; padding:0; box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: rgb(27,31,34) !important;
+    padding:0px;
+    margin:0px;
+    font-family:arial,helvetica,sans-serif,verdana,'Open Sans';
+    height: auto;
+    width: auto;
+    
+    position: relative;
+}
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 4px;
+    overflow: visible;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background-image: url('https://images.unsplash.com/photo-1551368321-dddf8a05c459?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80');
+    /* background-size: 500px 100px; */
+    text-align: center;
+   
+  }    
+
+  #home {
+             
+    background-image: url('https://images.unsplash.com/photo-1551368321-dddf8a05c459?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80');
+    color:black;
+    text-align:center;
+    padding-top: 300px;
+    padding-bottom: 360px;
+    background-size: 100% 100%;
+}
+
+
+.dfstyle{
+     --df-messenger-bot-message: #bdfcbf;
+     --df-messenger-button-titlebar-color: #7ec472;
+     --df-messenger-chat-background-color: #fafafa;
+     --df-messenger-font-color: black;
+     --df-messenger-send-icon: #7ec472;
+     --df-messenger-user-message: #7ec472;
+     --df-messenger-input-font-color:white;
+     --df-messenger-input-placeholder-font-color:white;
+     --df-messenger-input-box-color:black;
+}
+
+ 
